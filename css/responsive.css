@@ -1,0 +1,23 @@
+
+@media(min-width: 480px)
+{
+     .mobilenav{ display: none;}
+     .topnav{display: flex;}
+     .flex1 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.block-c
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    background: var(--white);
+    padding: 80px;
+    border-radius: 16px; 
+}
+}
